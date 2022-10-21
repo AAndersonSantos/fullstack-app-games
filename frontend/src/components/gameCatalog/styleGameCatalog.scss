@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Josefin+Slab:wght@300&family=Passion+One&display=swap');
+
+.game-catalog{
+
+    margin-top: 40px;
+
+    section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+.product-card{
+    margin: 15px;
+    width: 290px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+
+    .img-card{
+        width: 300px;
+
+        img{
+            border-radius: 10px 10px 0px 0px;
+            width: 290px;
+            height: 350px;
+        }
+    }
+
+    .card-content{
+        margin-top: 20px;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+        h1{
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #363636;
+            font-size: 22px;
+        }
+
+        h3{
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #696969;
+        }
+
+        .btn-comprar{
+            font-size: 17px;
+            color: white;
+            border-radius: 20px;
+            border: none;
+            margin-top: 10px;
+            width: 200px;
+            height: 30px;
+            cursor: pointer;
+            background: #28a745;
+
+            &:hover{
+                transform: scale(0.97);
+            }
+    
+        }
+        .btn-detalhes{
+            font-size: 17px;
+            color: white;
+            border-radius: 20px;
+            border: none;
+            margin-top: 10px;
+            width: 200px;
+            height: 30px;
+            cursor: pointer;
+            background: #17a2b8;
+
+            &:hover{
+                transform: scale(0.97);
+            }
+        }
+    }
+
+    &:hover {
+        transform: scale(1.04);
+    }
+}

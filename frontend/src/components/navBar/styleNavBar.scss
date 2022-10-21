@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+    nav{
+        height: 105px;
+        background: #00BFFF;
+        display: flex;
+        flex-direction: row;
+        border-top: 1px solid #CFCFCF;
+        border-bottom: 1px solid #CFCFCF;
+        
+        a{
+            margin-left: auto;
+            margin-right: auto;
+
+            img{
+                cursor: pointer;
+                height: 100px;
+                width: 250px;
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+    }
+
+    .nav-menu{
+        margin-top: 5px;
+        height: 40px;
+        background: #00BFFF;
+        display: flex;
+        flex-direction: row;
+        border-top: 1px solid #CFCFCF;
+        border-bottom: 1px solid #CFCFCF;
+
+        .navlink-jogos{
+            text-decoration: none;
+            font-size: 25px;
+            color: white;
+            margin-left: 40px;
+            display: flex;
+            align-items: center;
+        }
+    
+        .navlink-sobre{
+            text-decoration: none;
+            font-size: 22px;
+            color: white;
+            margin-left: 20px;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
