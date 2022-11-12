@@ -1,7 +1,7 @@
 module.exports = {
     DATABSE: "smart_games",
-    USER: "anderson",
-    PASSWORD: "adnanderson",
+    USER: "",
+    PASSWORD: "",
     HOST: "localhost",
     dialect: "mysql"
 }

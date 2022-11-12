@@ -77,6 +77,6 @@ function MapComponent(props) {
 
 export default GoogleApiWrapper(
   (props) => ({
-    apiKey: 'AIzaSyBbZkKZtHcLLZoGLarC32BgVUETa_2lTms',
+    apiKey: 'YOUR API KEY',
   }
   ))(MapComponent)
